@@ -32,7 +32,7 @@
                                         </subviews>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="gC2-i9-XzD" secondAttribute="trailing" constant="20" id="BM8-to-vfS"/>
-                                            <constraint firstItem="gC2-i9-XzD" firstAttribute="leading" secondItem="lj7-6v-joR" secondAttribute="leading" constant="20" id="MuA-wK-3cL"/>
+                                            <constraint firstItem="gC2-i9-XzD" firstAttribute="leading" secondItem="lj7-6v-joR" secondAttribute="leading" constant="20" id="MuA-wK-3cL" userLabel="0  .leading = leading + 20"/>
                                             <constraint firstAttribute="bottom" secondItem="gC2-i9-XzD" secondAttribute="bottom" id="dot-4f-tgo"/>
                                             <constraint firstItem="gC2-i9-XzD" firstAttribute="top" secondItem="lj7-6v-joR" secondAttribute="top" id="rRq-6m-DVH"/>
                                         </constraints>
@@ -75,7 +75,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="A0R-Fi-zKS">
-                                        <rect key="frame" x="0.0" y="299.66666666666669" width="430" height="149.00000000000006"/>
+                                        <rect key="frame" x="0.0" y="299.66666666666669" width="430" height="149"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Te-1e-CoT">
                                                 <rect key="frame" x="0.0" y="0.0" width="106.66666666666667" height="149"/>
@@ -221,7 +221,6 @@
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="lj7-6v-joR" firstAttribute="top" secondItem="3Oc-6B-Yns" secondAttribute="top" id="BaG-j4-MTl"/>
                                     <constraint firstItem="lj7-6v-joR" firstAttribute="top" secondItem="3Oc-6B-Yns" secondAttribute="top" id="m7g-cV-2Uj"/>
                                 </constraints>
                             </stackView>
